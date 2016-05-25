@@ -206,6 +206,11 @@ $(document).ready(function(){
 		scrollTop: $("#section4").offset().top
 		}, 400);
 	});
+	$("#contact-main-button").click(function(){
+		$('html, body').animate({
+		scrollTop: $("#contact-us-cs").offset().top
+		}, 400);
+	});
 	$("#button5").click(function(){
 		$('html, body').animate({
 		scrollTop: $("#section1").offset().top
