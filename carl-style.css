@@ -1,0 +1,16 @@
+/* LOOK, a CSS FILE! :D */
+
+/* This will change the colour of the navbar links when hovered */
+.link-item:hover{
+	color: #0E153F;
+}
+.map-container{
+	margin-bottom: 25px;
+}
+.real-fluid{
+	padding: 0px;
+	margin: -15px;
+}
+.navbar ul li a:focus{
+	color: #0E153F !important;
+}
