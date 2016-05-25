@@ -203,7 +203,7 @@ $(document).ready(function(){
 	});
 	$("#button4").click(function(){
 		$('html, body').animate({
-		scrollTop: $("#section4").offset().top
+		scrollTop: $("#contact-us-cs").offset().top
 		}, 400);
 	});
 	$("#button5").click(function(){
