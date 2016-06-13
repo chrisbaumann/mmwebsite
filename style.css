@@ -81,10 +81,6 @@ a {
     margin: 26px 0 35px 0;
 }
 
-
-
-
-
 /*=========================*/
 /* Page Loader */
 /*=========================*/
@@ -115,62 +111,62 @@ a {
 }
 ul.checklist li:before {
 	content:"\f00c ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.circleoklist li:before {
 	content:"\f058 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.arrowlist li:before {
 	content:"\f061 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.starlist li:before {
 	content:"\f005 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.doublearrowlist li:before {
 	content:"\f101 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.chevronlist li:before {
 	content:"\f054 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.handlist li:before {
 	content:"\f0a4 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.thumblist li:before {
 	content:"\f087 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.asterisklist li:before {
 	content:"\f069 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.circlearrowlist li:before {
 	content:"\f0a9 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.circlepluslist li:before {
 	content:"\f055 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 ul.longarrowlist li:before {
 	content:"\f178 ";
-	font-family:FontAwesome;
+	/*font-family:FontAwesome;*/
 	margin-right:5px;
 }
 .unstyle li:before {
@@ -248,6 +244,7 @@ ul.longarrowlist li:before {
 .btn {
 	padding:16px 30px;
 	margin-top:15px;
+	font-family:HelveticaNeue-CondensedBold
 }
 .btn,.btn:hover {
 	font-size:11px;
@@ -1157,7 +1154,7 @@ ul .tline-holder>li {
 	background:#f9f9f9;
 	clear:both;
 	float:none;
-	 position:relative;
+	position:relative;
 }
 ul.social-icons {
 	margin-left:0;
@@ -2262,7 +2259,7 @@ ul.social-icons li i:hover {
 	min-height:400px;
 	position:relative;
 	border-radius:3px;
-	 margin-top:-60px;
+	margin-top:-60px;
 }
 .lrform form ul {
 	list-style:none;
@@ -2738,6 +2735,7 @@ ul.countdown li p {
 	}
 	.navbar {
 						line-height:0;
+						font-family:HelveticaNeue-CondensedBold
 	}
 	.navbar-nav>li>.dropdown-menu {
 					border-radius:0;
@@ -2893,7 +2891,8 @@ ul.countdown li p {
     transform: scale(1);  
 }
 .workicons:hover{
-	color: #0E153F;
+	/*color: #0E153F;*/
+	color: #ffffff;
     background: rgba(0,0,0,0.3);
     box-shadow: 0px 0px 20px #0E153F;
     z-index: 2;
