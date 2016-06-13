@@ -10,7 +10,9 @@ Copyright:WowDevelopment
 /* General */
 /*=========================*/
 body {
-	font-family:Lato;
+	/*font-family:Lato;*/
+	font-family:La Gioconda;
+	src: url(assets/fonts/La_Gioconda)
 	line-height:1.6;
 	color:#666;
 	overflow-x:hidden;
