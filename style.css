@@ -15,6 +15,11 @@ Copyright:WowDevelopment
     src: url(assets/fonts/La_Gioconda.ttf)
 }
 
+@font-face {
+	font-family: HelveticaNeue-CondensedBold;
+	src: url(assets/fonts/HelveticaNeue-CondensedBold.ttf)
+}
+
 /*=========================*/
 /* General */
 /*=========================*/
