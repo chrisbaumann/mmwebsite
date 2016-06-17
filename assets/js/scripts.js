@@ -191,26 +191,36 @@ jQuery(function ($) {
             });
 			
 $(document).ready(function(){
+
+	//The School Button
 	$("#button1").click(function(){
 		$('html, body').animate({
 		scrollTop: $("#section1").offset().top
 		}, 400);
 	});
+
+	//Contact Us Button
 	$("#button2").click(function(){
 		$('html, body').animate({
 		scrollTop: $("#contact-us-cs").offset().top
 		}, 400);
 	});
+
+	//Enroll Button
 	$("#button4").click(function(){
 		$('html, body').animate({
-		scrollTop: $("#contact-us-cs").offset().top
+		scrollTop: $("#section4").offset().top
 		}, 400);
 	});
+
+	//MAIN Contact-Us Button Button
 	$("#contact-main-button").click(function(){
 		$('html, body').animate({
 		scrollTop: $("#contact-us-cs").offset().top
 		}, 400);
 	});
+
+	//The School Button 2
 	$("#button5").click(function(){
 		$('html, body').animate({
 		scrollTop: $("#section1").offset().top
